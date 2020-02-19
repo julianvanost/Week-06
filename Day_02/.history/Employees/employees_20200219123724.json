@@ -1,0 +1,52 @@
+[
+  {
+    "first_name": "Lauralee",
+    "last_name": "Koschke",
+    "email": "lkoschke0@irs.gov",
+    "ssn": "574-27-2922",
+    "department": "Accounting"
+  },
+  {
+    "first_name": "Galvan",
+    "last_name": "Touret",
+    "email": "gtouret1@youku.com",
+    "ssn": "393-74-0533",
+    "department": "Services"
+  },
+  {
+    "first_name": "Patrizia",
+    "last_name": "Ganley",
+    "email": "pganley2@facebook.com",
+    "ssn": "672-99-5899",
+    "department": "Sales"
+  },
+  {
+    "first_name": "Trescha",
+    "last_name": "Meagh",
+    "email": "tmeagh3@yahoo.com",
+    "ssn": "775-39-9807",
+    "department": "Human Resources"
+  },
+  {
+    "first_name": "Gar",
+    "last_name": "Keast",
+    "email": "gkeast4@vk.com",
+    "ssn": "669-76-9306",
+    "department": "Support"
+  },
+  {
+    "first_name": "Tracie",
+    "last_name": "Lewry",
+    "email": "tlewry5@auda.org.au",
+    "ssn": "548-33-5184",
+    "department": "Support"
+  },
+  {
+    "first_name": "Mayor",
+    "last_name": "Povlsen",
+    "email": "mpovlsen6@lulu.com",
+    "ssn": "411-73-6567",
+    "department": "Legal"
+  }
+  
+]

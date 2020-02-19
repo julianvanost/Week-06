@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Submission Form</title>
+  <style>
+    .jumbotron {
+      margin: 5rem;
+      border: 1px solid #000;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class=" jumbotron text-center">
+      <h1 class="display-4">Add Employees</h1>
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" id="first_name" placeholder="First Name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="last_name" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" id="email" placeholder="Email Address">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="ssn" placeholder="Social Security">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="department" placeholder="Department">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    axios.get('/employees')
+      .then(({data}) => {
+        console.log(data)
+        document.getElementById('employees').innerHTML = JSON.stringify(data)
+      })
+      .catch(e => console.error(e))
+       document.getElementById('addEmployee').addEventListener
+       innerHTML = JSON.stringify(data)
+
+
+  </script>
+</body>
+
+</html>
