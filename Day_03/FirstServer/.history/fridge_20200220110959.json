@@ -1,0 +1,49 @@
+[
+  {
+    "food_name": "Yoghurt",
+    "food_type": "Koschke",
+    "expireation_date": "lkoschke0@irs.gov",
+    "is_rotten": "yes"
+  },
+  {
+    "food_name": "Yoghurt",
+    "food_type": "Koschke",
+    "expireation_date": "lkoschke0@irs.gov",
+    "is_rotten": "yes"
+    
+  },
+  {
+    "food_name": "Yoghurt",
+    "food_type": "Koschke",
+    "expireation_date": "lkoschke0@irs.gov",
+    "is_rotten": "yes"
+    
+  },
+  {
+    "first_name": "Trescha",
+    "last_name": "Meagh",
+    "email": "tmeagh3@yahoo.com",
+    "ssn": "775-39-9807"
+    
+  },
+  {
+    "first_name": "Gar",
+    "last_name": "Keast",
+    "email": "gkeast4@vk.com",
+    "ssn": "669-76-9306"
+    
+  },
+  {
+    "first_name": "Tracie",
+    "last_name": "Lewry",
+    "email": "tlewry5@auda.org.au",
+    "ssn": "548-33-5184"
+    
+  },
+  {
+    "first_name": "Mayor",
+    "last_name": "Povlsen",
+    "email": "mpovlsen6@lulu.com",
+    "ssn": "411-73-6567"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Yoghurt",
+    "food_type": "dairy",
+    "expireation_date": "yesterday",
+    "is_rotten": "yes"
+  },
+  {
+    "name": "Yoghurt",
+    "food_type": "dairy",
+    "expireation_date": "yesterday",
+    "is_rotten": "yes"
+  },
+  {
+    "name": "Yoghurt",
+    "food_type": "dairy",
+    "expireation_date": "yesterday",
+    "is_rotten": "yes"
+  },
+  {
+    "name": "Yoghurt",
+    "food_type": "dairy",
+    "expireation_date": "yesterday",
+    "is_rotten": "yes"
+  }
+]

@@ -1,0 +1,55 @@
+const express = require('express')
+const path = require('path')
+const fs = require('fs')
+const app = express()
+
+// READ BELOW
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
+app.use(express.static(path.join(__dirname, 'public')))
+// ^^^ EVERY TIME WE USE A SERVER BASED APP, WE USE THESE THREE LINES ^^^^^
+
+app.get('/fridge', (req, res) => {
+  fs.readFile('fridge.json', 'utf8', (err, data) => {
+    if (err) { console.log(err) }
+    const fridge = JSON.parse(data)
+    res.json(fridge)
+  })
+
+})
+
+app.get('/fridge/:item', (req, res) => {
+
+
+})
+
+app.get('/fridge', (req, res) => {
+
+
+})
+
+
+app.get('/fridge', (req, res) => {
+  fs.readFile('fridge.json', 'utf8', (err, data) => {
+    if (err) { console.log(err) }
+    res.jsonJSON.parse(data)
+    res.json(fridge)
+  })
+})
+
+app.post('/fridge', (req, res) => {
+  fs.readFile('fridge.json', 'utf8', (err, data) => {
+    if (err) { console.log(err) }
+
+    const fridge = JSON.parse(data)
+
+    fridge.push(req.body)
+
+    fs.writeFile('fridge.json', JSON.stringify(fridge), err => {
+      if (err) { console.log(err) }
+      res.sendStatus(200)
+    })
+  })
+})
+
+app.listen(3000)
